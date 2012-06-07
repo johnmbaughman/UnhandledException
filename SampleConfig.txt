@@ -1,0 +1,17 @@
+	<configSections>
+    <section name="ExceptionHandlerConfig" type="System.Configuration.AppSettingsSection,System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </configSections>
+  <ExceptionHandlerConfig>
+    <add key="IgnoreDebugErrors" value="false" />
+    <add key="IgnoreRegex" value="get_aspx_ver\.aspx" />
+    <add key="IgnoreHttpErrors" value="true" />
+    <add key="LogToEmail" value="false" />
+    <add key="LogToSQL" value="false" />
+    <add key="ReportedBy" value="SomeApplication" />
+    <add key="EmailServer" value="server.email.com" />
+    <add key="EmailFromAddress" value="johndoe_error@email.com" />
+    <add key="EmailFromName" value="John Doe" />
+    <add key="EmailToAddressList" value="johndoe@email.com" />
+    <add key="LogToFile" value="false" />
+    <add key="LogFilePath" value="C:\Logs\" />
+  </ExceptionHandlerConfig>
